@@ -536,7 +536,7 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/entete1.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -634,8 +634,9 @@ input[type='checkbox'] {
 /*     Details     */
 /*******************/
 .split .area-1 {
+	margin-top: 7rem;
 	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/details-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/entete4.jpg') center center no-repeat;
 	background-size: cover;
 }
 
@@ -938,7 +939,7 @@ a.back-to-top {
 	width: 42px;
 	height: 42px;
 	border-radius: 30px;
-	background: #3a424d url("../images/u.-arrow.png") no-repeat center 47%;
+	background: #3a424d url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 18px 18px;
 	text-indent: -9999px;
 }
@@ -1302,7 +1303,8 @@ a:hover.back-to-top {
   	margin-right: auto;
 
 }
-/* compétences */
+/* Page index*/
+/*compétences */
 
 
 /* Mon parcours pro */
@@ -1326,4 +1328,38 @@ a:hover.back-to-top {
 	/* margin-top: ; */
 	width: 100%;
 
+}
+.buttoncentrer {
+	display: inline-block;
+	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
+	border: 1px solid #0b36a8;
+	background-color: #0b36a8;
+	color: #ffffff;
+	font-weight: 600;
+	font-size: 0.875rem;
+	line-height: 0;
+	text-decoration: none;
+	transition: all 0.2s;
+	
+	
+}
+
+.buttoncentrer:hover{
+	background-color: transparent;
+	color: #0b36a8; /* needs to stay here because of the color property of a tag */
+	text-decoration: none;
+}
+.centrerbouton{
+	text-align: center;
+	
+}
+/* projets */
+.titreap{
+	text-align: center;
+}
+
+.centrerbouton1{
+	text-align: center;
+	margin-top: 1.25rem;
+	margin-bottom: 1.25rem;
 }
