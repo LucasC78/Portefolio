@@ -660,9 +660,9 @@ input[type='checkbox'] {
 }
 
 
-/********************/
+
 /*     Projects     */
-/********************/
+
 .basic-3 {
 	padding-top: 3.75rem;
 	padding-bottom: 1rem;
@@ -927,9 +927,8 @@ input[type='checkbox'] {
 }
 
 
-/******************************/
 /*     Back To Top Button     */
-/******************************/
+
 a.back-to-top {
 	position: fixed;
 	z-index: 999;
@@ -948,10 +947,8 @@ a:hover.back-to-top {
 	background-color: #0b36a8;
 }
 
-
-/***********************/
 /*     Extra Pages     */
-/***********************/
+
 .ex-header {
 	padding-top: 8.5rem;
 	padding-bottom: 4rem;
@@ -1006,9 +1003,6 @@ a:hover.back-to-top {
 }
 
 
-/*************************/
-/*     Media Queries     */
-/*************************/	
 /* Min-width 768px */
 @media (min-width: 768px) {
 
@@ -1052,7 +1046,7 @@ a:hover.back-to-top {
 		margin-right: auto;
 		margin-left: auto;
 	}
-	/* end of general styles */
+	
 
 
 	/* Navigation */
@@ -1346,7 +1340,7 @@ a:hover.back-to-top {
 
 .buttoncentrer:hover{
 	background-color: transparent;
-	color: #0b36a8; /* needs to stay here because of the color property of a tag */
+	color: #0b36a8; 
 	text-decoration: none;
 }
 .centrerbouton{
